@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+    
+<head> 
+    <link rel="stylesheet" href="stylo.css">
+    <div class="ini">
+        <form >
+
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+               </ul>
+            </form>
+    </div>
+
+</head>
+<div class="bot1">
+    <form method="get" action="login.html">
+
+        <input type="submit" value="LOGIN" />
+        
+        </form>
+    </div>
+    <div class="bot2">
+   <form method="get" action="register.html">
+
+        <input type="submit" value="REGISTRO" />
+        
+        </form>
+    
+
+</div>
+<div class="contenedor1">
+   
+        <form>
+<div class="res">
+    <label for ="usuario"> nombre</label>
+    <br>
+    <input type ="usuario"  name="nombre" id="usuario"  minlength="8" maxlength ="12" required>
+    <br>
+    <label for ="usuario"> apellidos</label>
+    <br>
+    <input type ="usuario"  name="ap-pat"  id="usuario"   minlength="4" maxlength ="15" required>
+    <br>
+    <label for ="email"> correo</label>
+    <br>
+    <input type= "email"id="email" value="@"   pattern=".+@gmail.com" required >
+    <br>
+    <label for ="psw"> password</label>
+    <br>
+    <input type = "password" nombre="psw" id="psw"  minlength="8" maxlength ="12" pattern="[0-9]{8}" required>
+    <br>            
+       <input type= "submit" value="REGISTRAR" required> 
+                          
+
+</div>
+</form>
+
+
+
+</div>
+</body>
+</html>

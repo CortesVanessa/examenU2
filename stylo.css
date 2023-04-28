@@ -1,0 +1,111 @@
+body {
+    background-color: #c2a9c9;
+    background:url(./flores.jpg)no-repeat;
+    font-family: Rubik, Arial;
+  }
+
+  .contenedor{
+    margin: auto;
+    width: 35%;
+    height:30vh;
+    margin-top: 55px;
+    background-color: #f598f8;
+    border-radius: 65px;
+  }
+
+  .contenedor1{
+    margin: auto;
+    width: 20%;
+    height:50vh;
+    margin-top: 55px;
+    background-color: #575e7a;
+    border-radius: 5px;
+  }
+
+  .contenedor2{
+    margin: auto;
+    width: 20%;
+    height:50vh;
+    margin-top: 55px;
+    background-color: #5c8a71;
+    border-radius: 5px;
+  }
+
+.ini{
+  position:absolute;
+  top: 50px;
+  left:150px;
+  background-color: #808381;
+}
+.inilogin{
+  position:absolute;
+  top: 40px;
+  left:150px;
+  background-color: #737c77;
+}
+.logindex{
+  position:absolute;
+  top: 50px;
+  right:150px;
+  background-color: #799e89;
+}
+
+.registroindex{
+  position:absolute;
+  top: 50px;
+  right:220px;
+  background-color: #585a59;
+}
+  .res{
+    position:absolute;
+    top: 125px;
+    left:550px;
+  }
+  .user{
+    position:absolute;
+    top: 125px;
+    left:560px;
+  }
+  .bot1{
+    position:absolute;
+    top: 75px;
+    left:550px;
+    background-color: #ebecec;
+  }
+  .bot2{
+    position:absolute;
+    top: 75px;
+    left:620px;
+    background-color: #ebecec;
+
+  }
+  .log1{
+    position:absolute;
+    top: 75px;
+    left:550px;
+    background-color: #ebecec;
+  }
+  .log2{
+    position:absolute;
+    top: 75px;
+    left:670px;
+    background-color: #ebecec;
+  }
+  .v{
+    position:absolute;
+    top: 90px;
+    right: 550px;
+    font-size: larger;
+    font-family:'Times New Roman', Times,serif;
+    
+  }
+  .ultimo{
+    position:absolute;
+    top: 145px;
+    left:80px;
+  }
+  .boton{
+    position:absolute;
+    top: 215px;
+    left:110px;
+  }
